@@ -1,6 +1,6 @@
 /*  import google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
-
+/* #8cb3d2 */
 *{
     margin: 0;
     padding: 0;
@@ -71,7 +71,7 @@ section .title::after{
     bottom: -8px;
     left: 50%;
     font-size: 20px;
-    color: #2b9380;;
+    color: #8cb3d2;;
     padding: 0 5px;
     background: #fff;
     transform: translateX(-50%);
@@ -87,12 +87,12 @@ section .title::after{
     transition: all 0.3s ease;
     position: fixed;
     padding: 15px 0;
-    background: #2b9380;
+    background: #8cb3d2;
     
 }
 /* .navbar.sticky{
     padding: 15px 0;
-    background: #2b9380;
+    background: #8cb3d2;
 } */
 .navbar .max-width{
     display: flex;
@@ -105,7 +105,7 @@ section .title::after{
     font-weight: 600;
 }
 .navbar .logo a span{
-    color: #2b9380;;
+    color: #8cb3d2;;
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
@@ -124,7 +124,7 @@ section .title::after{
     transition: color 0.3s ease;
 }
 .navbar .menu li a:hover{
-    color: #2b9380;;
+    color: #8cb3d2;;
 }
 .navbar.sticky .menu li a:hover{
     color: #fff;
@@ -141,7 +141,7 @@ section .title::after{
     position: fixed;
     height: 45px;
     width: 42px;
-    background: #2b9380;;
+    background: #8cb3d2;;
     right: 30px;
     bottom: 10px;
     text-align: center;
@@ -196,23 +196,23 @@ section .title::after{
     margin: 5px 0;
 }
 .home .home-content .text-3 span{
-    color: #2b9380;;
+    color: #8cb3d2;;
     font-weight: 500;
 }
 .home .home-content a{
     display: inline-block;
-    background: #2b9380;;
+    background: #8cb3d2;;
     color: #fff;
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
     font-weight: 400;
     border-radius: 6px;
-    border: 2px solid #2b9380;;
+    border: 2px solid #8cb3d2;;
     transition: all 0.3s ease;
 }
 .home .home-content a:hover{
-    color: #2b9380;;
+    color: #8cb3d2;;
     background: none;
 }
 
@@ -243,7 +243,7 @@ section .title::after{
     margin-bottom: 10px;
 }
 .about .about-content .right .text span{
-    color: #2b9380;;
+    color: #8cb3d2;;
 }
 
 .about .about-content .right .typing-2{
@@ -258,18 +258,18 @@ section .title::after{
 }
 .about .about-content .right a{
     display: inline-block;
-    background: #2b9380;;
+    background: #8cb3d2;;
     color: #fff;
     font-size: 20px;
     font-weight: 500;
     padding: 10px 30px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid #2b9380;;
+    border: 2px solid #8cb3d2;;
     transition: all 0.3s ease;
 }
 .about .about-content .right a:hover{
-    color: #2b9380;;
+    color: #8cb3d2;;
     background: none;
 }
 
@@ -315,13 +315,13 @@ section .title::after{
 }
 .projects .serv-content .project-card i{
     font-size: 50px;
-    color: #2b9380;;
+    color: #8cb3d2;;
     transition: color 0.3s ease;
 }
 
 .projects .serv-content .project-card a{
     margin-top: 2rem;
-    color: #2b9380;
+    color: #8cb3d2;
 }
 
 .projects .serv-content .project-card h1{
@@ -363,18 +363,18 @@ section .title::after{
 }
 .skills .skills-content .left a{
     display: inline-block;
-    background: #2b9380;;
+    background: #8cb3d2;;
     color: #fff;
     font-size: 18px;
     font-weight: 500;
     padding: 8px 16px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid #2b9380;;
+    border: 2px solid #8cb3d2;;
     transition: all 0.3s ease;
 }
 .skills .skills-content .left a:hover{
-    color: #2b9380;;
+    color: #8cb3d2;;
     background: none;
 }
 .skills .skills-content .right .bars{
@@ -402,7 +402,7 @@ section .title::after{
     height: 100%;
     left: 0;
     top: 0;
-    background: #2b9380;
+    background: #8cb3d2;
 }
 .skills-content .right .html::before{
     width: 90%;
@@ -441,18 +441,18 @@ section .title::after{
 }
 .tools .tools-content .left a{
     display: inline-block;
-    background: #2b9380;;
+    background: #8cb3d2;;
     color: #fff;
     font-size: 18px;
     font-weight: 500;
     padding: 8px 16px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid #2b9380;;
+    border: 2px solid #8cb3d2;;
     transition: all 0.3s ease;
 }
 .tools .tools-content .left a:hover{
-    color: #2b9380;;
+    color: #8cb3d2;;
     background: none;
 } */
 .skills .skills-content .right .bars{
@@ -486,7 +486,7 @@ section .title::after{
     height: 100%;
     left: 0;
     top: 0;
-    background: #2b9380;;
+    background: #8cb3d2;;
 }
 .tools-content .right .github::before{
     width: 70%;
@@ -530,7 +530,7 @@ section .title::after{
 }
 .contact .contact-content .row i{
     font-size: 25px;
-    color: #2b9380;;
+    color: #8cb3d2;;
 }
 .contact .contact-content .info .head{
     font-weight: 500;
@@ -589,12 +589,12 @@ section .title::after{
   border-radius: 6px;
   cursor: pointer;
   flex-wrap: nowrap;
-  background: #2b9380;;
-  border: 2px solid #2b9380;;
+  background: #8cb3d2;;
+  border: 2px solid #8cb3d2;;
   transition: all 0.3s ease;
 }
 .right form .button-area button:hover{
-  color: #2b9380;;
+  color: #8cb3d2;;
   background: none;
 }
 /* footer section styling */
@@ -609,7 +609,7 @@ footer .social-icons a{
     color: white;
 }
 footer span a{
-    color: #2b9380;;
+    color: #8cb3d2;;
     text-decoration: none;
 }
 footer span a:hover{
@@ -645,7 +645,7 @@ footer span a:hover{
         width: 100%;
         left: -100%;
         top: 0;
-        background: #2b9380;
+        background: #8cb3d2;
         
         text-align: center;
         padding-top: 80px;
