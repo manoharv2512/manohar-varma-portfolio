@@ -71,3 +71,23 @@ $(document).ready(function(){
         }
     });
 });
+
+
+  document.getElementById("downloadCvBtn").addEventListener("click", (event) => {
+    event.preventDefault(); // Prevent default anchor behavior
+
+    const fileUrl = './ManoharVarma.pdf';
+
+    // Open the file in a new tab
+    window.open(fileUrl, '_blank');
+
+    // Create an anchor element for the download
+    const anchor = document.createElement('a');
+    anchor.href = fileUrl;
+    anchor.download = 'ManoharVarma.pdf';
+
+    // Append, click, and remove the anchor
+    document.body.appendChild(anchor);
+    anchor.click();
+    document.body.removeChild(anchor);
+  });
